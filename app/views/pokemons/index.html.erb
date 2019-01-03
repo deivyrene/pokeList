@@ -1,0 +1,22 @@
+<div class="container">
+
+<h1>Pokemón</h1>
+
+<div class="row">
+  <% @pokemons['results'].each.with_index do |pokemon, index| %>
+  <div class="col-sm-4 col-md-2">
+    <div class="thumbnail">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<%= index + 1 %>.png" alt="...">
+      <div class="caption text-center">
+        <h3><%= pokemon["name"] %></h3>
+        <p>
+          <a href="show/<%= index + 1 %>" class="btn btn-primary" role="button">Detalle</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
+
+
+</div>

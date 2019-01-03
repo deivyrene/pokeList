@@ -10,6 +10,9 @@ end
 gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'bootstrap-sass'
+gem 'httparty'
+gem 'net_http_ssl_fix'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
