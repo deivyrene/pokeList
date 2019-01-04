@@ -1,5 +1,9 @@
 # App Podédex Pokemón
 
+# Images
+
+![alt text](https://www.w3schools.com/html/pic_trulli.jpg)
+
 _Aplicacion en Ruby On Rails para consultar Api Pokemón_
 
 ## Comenzando 🚀
@@ -34,6 +38,4 @@ _Pasos_
 
 - En el navegador web, ingresa la siguiente dirección:http://localhost:3000/pokemons/index
 
-# Images
 
-![alt text](https://www.w3schools.com/html/pic_trulli.jpg)
