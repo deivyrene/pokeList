@@ -1,3 +1,49 @@
 // Place all the styles related to the pokemons controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.all {
+    background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+    font-family: "Flexo-Regular",arial,sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.border{
+    font-size: 46px; 
+    color: #ffce07; 
+    -webkit-text-stroke: 1px #1f65c1;
+}
+.detail {
+    background: #bcbec2 url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #000;
+}
+
+.type {
+    color: #fff
+}
+
+.card {
+    border-color: red; 
+    border-radius: 15px; 
+    background: #30a7d7; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding: 20px
+}
+
+img {
+    border: 5px solid #ccc;
+    float: left;
+    margin: 15px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -ms-transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;
+    align-content: center;
+}
+.ex1 img:hover {
+    margin-top: 2px;
+}
+    

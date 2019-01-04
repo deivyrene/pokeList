@@ -1,25 +1,45 @@
 <div class="container">
 
-<h1>Detalle de Pokemón</h1>
+
 
 <div class="row">
-  <div class="col-sm-4 col-md-2">
-    <div class="thumbnail">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<%= @pokemon["order"]%>.png" alt="...">
-      <div class="caption">
-        <h3><%= @pokemon["name"] %></h3>
-        <p>Peso : <%= @pokemon["weight"] %></p>
-        <p>Altura : <%= @pokemon["height"] %></p>
-        <p>Movimientos : <%= %></p>
-        <% @pokemon["moves"].each.with_index do |move, index| %>
-        <p><%= move["move"]["name"]%></p>
-        <% end %>
-        <p>
-          <a href="/pokemons/index" class="btn btn-primary" role="button">Regresar</a>
-        </p>
+    <div class="page-header text-center">
+        <h1 class="border"><%= @pokemon["name"].upcase %> N.°0<%= @pokemon["id"]%></h1>
+    </div>
+</div>
+
+<div class="row detail">
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<%= @pokemon["id"]%>.png" width="500px" height="400px" alt="...">
+        </div>
+        <div class="col-sm-2"></div>
       </div>
     </div>
-  </div>
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+            <div class="card">
+                  <p><b class="type">Peso :</b> <b><%= @pokemon["weight"].to_f %> kg </b></p>
+                  <p><b class="type">Altura :</b> <b><%= @pokemon["height"].to_f %> m </b></p>
+                  <p><b class="type">Movimientos :</b> <%= %></p>
+                  <ul class="list-group">
+                    <% @pokemon["moves"].each.with_index do |move, index|  break if index == 10; %>
+                      <li class="list-group-item"><%= move["move"]["name"]%></li>
+                    <% end %>
+                  </ul>
+                                    
+                  <p class="text-center">
+                    <a href="/pokemons/index" class="btn btn-sm btn-warning" role="button">Pokédex</a>
+                  </p>
+            </div>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
 </div>
 
 
