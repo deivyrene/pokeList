@@ -1,24 +1,35 @@
-# README
+# App Podédex Pokemón
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+_Aplicacion en Ruby On Rails para consultar Api Pokemón_
 
-Things you may want to cover:
+## Comenzando 🚀
 
-* Ruby version
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-* System dependencies
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-* Configuration
 
-* Database creation
+### Pre-requisitos 📋
 
-* Database initialization
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-* How to run the test suite
+```
+Version de ruby 2.3.3, Rails 5.1.6, nodeJs 10.15
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Instalación 🔧
 
-* Deployment instructions
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-* ...
+_Pasos_
+
+```
+- Clonar el repositorio https://github.com/deivyrene/pokeList.git
+
+- Luego posicionarse en la carpeta clonada
+
+- Ejecutar bundle install
+
+- Inicia un servidor web local: rails server
+
+- En el navegador web, ingresa la siguiente dirección:http://localhost:3000
