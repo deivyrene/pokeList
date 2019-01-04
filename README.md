@@ -2,7 +2,9 @@
 
 # Images
 
-![alt text](https://www.w3schools.com/html/pic_trulli.jpg)
+![alt text](http://avilez.cl/img/pokedex.png)
+
+![alt text](http://avilez.cl/img/detail.png)
 
 _Aplicacion en Ruby On Rails para consultar Api Pokemón_
 
