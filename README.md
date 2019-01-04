@@ -33,3 +33,7 @@ _Pasos_
 - Inicia un servidor web local: rails server
 
 - En el navegador web, ingresa la siguiente dirección:http://localhost:3000
+
+# Images
+
+![alt text](https://lh6.googleusercontent.com/awS3KpohM2-7fFySofkpl2SZIXCo16Bz9cZ6iQPYESFOSa4OFBboFSc9NbuQYYY9oH6mZOdU3kj33Evy6fUW=w1366-h626-rw)
