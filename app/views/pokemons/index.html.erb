@@ -7,7 +7,7 @@
 </div>
 
 <div class="row">
-  <% @pokemons['results'].each.with_index do |pokemon, index| %>
+  <% @pokemons['results'].each.with_index do |pokemon, index| break if index == 100;%>
     <div class="col-sm-4 col-md-2 ex1">
         <div class="thumbnail" style="background: #f2f2f2;">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/<%= index + 1 %>.png" alt="...">
